@@ -1,0 +1,63 @@
+/*  asdasda */
+prototipo inteiro fibonacci(inteiro);
+
+semretorno f(semparam) {
+
+     inteiro i, n;
+
+     imprima("Digite a qtd de termos da sequencia: ");
+     leia(n);
+     imprima("A sequencia de Fibonacci solicitada eh: ");
+     imprima(enter);
+     para (i=0; i<n; i=i+1) 
+            imprima(fibonacci(i+1));
+      retorne;
+}
+
+inteiro fibbonaci(inteiro num) {
+
+      se ((num==1) || (num==2)) retorne 1;
+      senao 
+             retorne (fibonacci(num-1)+fibonacci(num-2));
+}
+
+inteiro tipo(inteiro a,caracter b){
+   
+    se(tokenTestetipo == PR ){
+                       se(tokenTestecodigoPR == CARACTER ) retorne 3; 
+                       senao se(tokenTestecodigoPR == INTEIRO ) retorne 1;  
+                            senao se(tokenTestecodigoPR == REAL ) retorne 1;  
+                                 senao se(tokenTestecodigoPR == BOOLEANO ) retorne 1;  
+                                      senao { printf(); retorne  0;}
+     }
+     senao { a=printf(a,linhaCodigo); retorne  0;}
+}
+
+
+inteiro teste(semparam){
+
+caracter a,b,c,m;
+real dez,d;
+
+
+dez =10;
+a=false;
+
+enquanto(!a){
+
+	se(dez*10 < 10){
+		 printf(d);
+		 calc2(dez,a);
+		 d=dez*(10/6)+(8*9/5+96-40);
+		 a= true;
+	         }
+	senao se ( dez*10==0)  dez=dez-1; 
+	
+
+}
+
+se ((((c==b))));
+
+
+
+}

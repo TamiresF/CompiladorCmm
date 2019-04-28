@@ -1,0 +1,18 @@
+# depslib dependency file v1.0
+1510879508 source:c:\users\tamires\desktop\compiladorcmm\lexico.c
+	"Lexico.h"
+
+1510875136 c:\users\tamires\desktop\compiladorcmm\lexico.h
+	<stdio.h>
+	<stdlib.h>
+	<ctype.h>
+	<string.h>
+
+1510879370 source:c:\users\tamires\desktop\compiladorcmm\main.c
+	<stdio.h>
+	<stdlib.h>
+	"Lexico.h"
+
+1510880104 source:c:\users\tamires\desktop\compiladorcmm\sintatico.c
+	"Lexico.h"
+
